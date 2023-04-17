@@ -23,6 +23,7 @@ Even though the results listed are subpar, we believe our work holds value in su
 ![image](https://user-images.githubusercontent.com/91340560/232606207-664eb37a-c16a-45ea-bc0d-40327d5c8b81.png)
  
 - Model Training
+
 ![image](https://user-images.githubusercontent.com/91340560/232606328-71eb7f0b-c965-4ce4-b626-2fce5a52ddf3.png)
 
 ## Results
