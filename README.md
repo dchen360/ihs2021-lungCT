@@ -30,3 +30,16 @@ Even though the results listed are subpar, we believe our work holds value in su
 ![image](https://user-images.githubusercontent.com/91340560/232606582-c0bdbbdb-3ed5-44ac-bd81-759434bebf7f.png)
 ![image](https://user-images.githubusercontent.com/91340560/232606607-b91cd3cc-8e49-4636-b67e-b3f6b968197e.png)
 ![image](https://user-images.githubusercontent.com/91340560/232606660-80d70056-ef40-42da-acfb-41bbb6b43a0a.png)
+
+## Insight
+- Discussion
+Overfitting: model performed well on training data but guessed randomly on testing data.  
+- Overfitting 
+  - Insufficient data, especially on non-dominant classes
+  - Extract >1 slice from each image may help
+  - Slice choice may not be ideal
+- Future Work
+We’d try to troubleshoot the model by...
+  - Tuning the learning rate to see if global minima are being skipped over.
+  - Pooling lung images of different slices to mimic basic ‘data augmentation.’
+  - Using explainable AI frameworks (e.g. GradCAM) to investigate features driving prediction in the absence of other leads.
