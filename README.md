@@ -32,8 +32,7 @@ Even though the results listed are subpar, we believe our work holds value in su
 ![image](https://user-images.githubusercontent.com/91340560/232606660-80d70056-ef40-42da-acfb-41bbb6b43a0a.png)
 
 ## Insight
-- Discussion
-Overfitting: model performed well on training data but guessed randomly on testing data.  
+- Model performed well on training data but guessed randomly on testing data.  
 - Overfitting 
   - Insufficient data, especially on non-dominant classes
   - Extract >1 slice from each image may help
