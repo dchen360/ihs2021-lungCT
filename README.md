@@ -31,6 +31,13 @@ Even though the results listed are subpar, we believe our work holds value in su
 ![image](https://user-images.githubusercontent.com/91340560/232606607-b91cd3cc-8e49-4636-b67e-b3f6b968197e.png)
 ![image](https://user-images.githubusercontent.com/91340560/232606660-80d70056-ef40-42da-acfb-41bbb6b43a0a.png)
 
+## Methods and Results: Follow-ups
+- Nothing we tried to fix the model changed the subpar results on the previous slide.
+- However, we did not try more radical approaches such as using all slices or using a 3D model architecture, which might introduce improvements into the algorithm.
+
+![image](https://user-images.githubusercontent.com/91340560/232607544-333bfc1e-6f7c-4db7-9ce9-2253a240c8a3.png)
+
+
 ## Insight
 - Model performed well on training data but guessed randomly on testing data.  
 - Overfitting 
