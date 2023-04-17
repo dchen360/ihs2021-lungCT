@@ -11,27 +11,21 @@ Even though the results listed are subpar, we believe our work holds value in su
 - High case volumes lead to medical errors as doctors examine CT scans with limited time.
 - Need for automated algorithm to accurately triage COVID-19 patients based on CT scans.
 
-## Data and Data Processing
-Dataset
+## Dataset
 1,110 CT scans from hospitals in Moscow, using 25th slice of CT scan
-CT-0
-No COVID
 
-CT-1
-Mild
+## Method
+- VGG16 :
+  - A modified VGG-16 model pretrained on ImageNet was used for classification in a transfer learning approach.
+  - The last fully connected layer was substituted to achieve necessary output dimensions.
+  - All weights were frozen except those of the last layer.
 
-CT-2
-Moderate
+![image](https://user-images.githubusercontent.com/91340560/232606207-664eb37a-c16a-45ea-bc0d-40327d5c8b81.png)
 
-CT-3/4
-Severe/critical
+- Model Training
+![image](https://user-images.githubusercontent.com/91340560/232606328-71eb7f0b-c965-4ce4-b626-2fce5a52ddf3.png)
 
-254
-
-684
-
-125
-
-45
-(43 + 2)
-
+## Results
+![image](https://user-images.githubusercontent.com/91340560/232606582-c0bdbbdb-3ed5-44ac-bd81-759434bebf7f.png)
+![image](https://user-images.githubusercontent.com/91340560/232606607-b91cd3cc-8e49-4636-b67e-b3f6b968197e.png)
+![image](https://user-images.githubusercontent.com/91340560/232606660-80d70056-ef40-42da-acfb-41bbb6b43a0a.png)
